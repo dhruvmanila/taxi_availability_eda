@@ -50,7 +50,7 @@ def collect_data():
 
 ## Number of available taxis per hour
 
-TODO: image
+<img alt="available taxis per hour histogram" src="./assets/available_taxis_per_hour.png">
 
 - The number of taxis available are less in the morning and increases in the afternoon and then decreases back again during the midnight.
 - As the number of people commuting increases, the supply for the taxis increases with it.
@@ -58,13 +58,13 @@ TODO: image
 
 ## Time series map of available taxis by the hour
 
-TODO: image
+<img alt="static time series map of available taxis" src="./assets/time_series_map.png">
 
 The above is video showing the available taxis by the hour.
 
 ## Number of available taxis by the region
 
-TODO: image
+<img alt="taxis available in regions" src="./assets/taxis_available_in_regions.png">
 
 ## Number of available taxis per hour by the region
 
@@ -72,4 +72,4 @@ TODO: images
 
 ## Routes taken by the available taxis on an average day
 
-TODO: image
+<img alt="most routes taken by available taxis" src="./assets/taxi_routes.png">

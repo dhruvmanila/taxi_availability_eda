@@ -76,9 +76,15 @@ The above is a static image of the animation showcasing the available taxis at e
 
 ## Number of available taxis per hour by the region
 
-TODO: images
+### Number of available taxis by the region for hour 0
 
-This is a more granular analysis for number of taxis available by region _per hour_.
+<img alt="taxis available in regions for hour 0" src="./assets/available_taxis_by_region_hour0.png">
+
+### Number of available taxis by the region for hour 1
+
+<img alt="taxis available in regions for hour 1" src="./assets/available_taxis_by_region_hour1.png">
+
+This is a more granular analysis for number of taxis available by region _per hour_. For more images, please refer to the [Google Colab notebook](https://colab.research.google.com/drive/1nw-RLUhurcgXEY73Vq4sXpHnyb6qj1uJ?usp=sharing).
 
 ## Routes taken by the available taxis on an average day
 

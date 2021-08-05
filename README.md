@@ -26,7 +26,7 @@ def collect_data():
     end = datetime.datetime(year=2021, month=8, day=1, hour=23, minute=59, second=59)
     delta = datetime.timedelta(minutes=10)
 
-    with open("taxi_availability_every_10_minutes.csv", "w") as csvfile:
+    with open("taxi_availability.csv", "w") as csvfile:
         fieldnames = ["timestamp", "coordinate", "longitude", "latitude"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()

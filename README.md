@@ -62,7 +62,8 @@ def collect_data():
 
 <img alt="static time series map of available taxis" src="./assets/time_series_map.png">
 
-The above is a static image of the animation showcasing the available taxis at every hour on a given day.
+The above is a static image of the animation showcasing the available taxis at every hour on a given day. To look at the animation, please refer to the [Google Colab notebook](https://colab.research.google.com/drive/1nw-RLUhurcgXEY73Vq4sXpHnyb6qj1uJ?usp=sharing).
+
 
 ## Number of available taxis by the region
 
@@ -71,7 +72,7 @@ The above is a static image of the animation showcasing the available taxis at e
 - The number of taxis available is more in the following areas:
   - Downtown
   - Airport
-  - Tourist spots such as Museum, Garden, etc.
+  - Tourist spots such as Museum, Zoo, Nature park, etc.
 - There are various hotspots all around the city where the availability is more suggesting a common spot for taxis.
 
 ## Number of available taxis per hour by the region
@@ -84,10 +85,12 @@ The above is a static image of the animation showcasing the available taxis at e
 
 <img alt="taxis available in regions for hour 1" src="./assets/available_taxis_by_region_hour1.png">
 
-This is a more granular analysis for number of taxis available by region _per hour_. For more images, please refer to the [Google Colab notebook](https://colab.research.google.com/drive/1nw-RLUhurcgXEY73Vq4sXpHnyb6qj1uJ?usp=sharing).
+This is a more granular analysis for number of taxis available by region _per hour_. For images for other time, please refer to the [Google Colab notebook](https://colab.research.google.com/drive/1nw-RLUhurcgXEY73Vq4sXpHnyb6qj1uJ?usp=sharing).
+
 
 ## Routes taken by the available taxis on an average day
 
 <img alt="most routes taken by available taxis" src="./assets/taxi_routes.png">
 
-TODO: conclusion
+- This showcases all the busy roads taken by the taxis during an average day.
+- Most of the roads are all the main ones going through the important parts of the city namely the Downtown, Airport, University, Parks, Golf course etc.

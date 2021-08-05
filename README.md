@@ -4,6 +4,8 @@ An exploratory data analysis on taxi availability in Singapore
 
 Dataset: Extracted from the API endpoint (https://api.data.gov.sg/v1/transport/taxi-availability) The below function was used to collect the data and store in a CSV file `taxi_availability.csv`.
 
+The Notebook is too large to be uploaded on GitHub, it is available on Google Colab: https://colab.research.google.com/drive/1nw-RLUhurcgXEY73Vq4sXpHnyb6qj1uJ?usp=sharing
+
 ```python
 import csv
 import datetime
@@ -60,16 +62,26 @@ def collect_data():
 
 <img alt="static time series map of available taxis" src="./assets/time_series_map.png">
 
-The above is video showing the available taxis by the hour.
+The above is a static image of the animation showcasing the available taxis at every hour on a given day.
 
 ## Number of available taxis by the region
 
 <img alt="taxis available in regions" src="./assets/taxis_available_in_regions.png">
 
+- The number of taxis available is more in the following areas:
+  - Downtown
+  - Airport
+  - Tourist spots such as Museum, Garden, etc.
+- There are various hotspots all around the city where the availability is more suggesting a common spot for taxis.
+
 ## Number of available taxis per hour by the region
 
 TODO: images
 
+This is a more granular analysis for number of taxis available by region _per hour_.
+
 ## Routes taken by the available taxis on an average day
 
 <img alt="most routes taken by available taxis" src="./assets/taxi_routes.png">
+
+TODO: conclusion
